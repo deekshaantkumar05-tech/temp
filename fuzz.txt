@@ -1,0 +1,18 @@
+[main]
+font=monospace:size=12
+prompt="  Run: "
+terminal=foot
+width=50
+lines=12
+
+[colors]
+background=111318ee
+text=e6e6e6ff
+match=ffffff
+selection=3a3f4bff
+selection-text=ffffff
+border=6b7280ff
+
+[border]
+width=1
+radius=8
