@@ -1,0 +1,57 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 32,
+    "spacing": 6,
+
+    "modules-left": [
+        "custom/launcher"
+    ],
+
+    "modules-center": [
+        "clock"
+    ],
+
+    "modules-right": [
+        "network",
+        "cpu",
+        "memory",
+        "battery",
+        "tray"
+    ],
+
+    "custom/launcher": {
+        "format": " 󰣇 ",
+        "tooltip": "Applications",
+        "on-click": "fuzzel"
+    },
+
+    "clock": {
+        "format": "󰥔  {:%a %d %b  %H:%M}",
+        "tooltip": false
+    },
+
+    "network": {
+        "format-wifi": "󰤨  {essid} {signalStrength}%",
+        "format-ethernet": "󰈀  {ipaddr}",
+        "format-disconnected": "󰤭  Offline",
+        "tooltip-format": "{ifname}: {ipaddr}"
+    },
+
+    "cpu": {
+        "format": "󰍛  {usage}%"
+    },
+
+    "memory": {
+        "format": "󰘚  {percentage}%"
+    },
+
+    "battery": {
+        "format": "󰁹  {capacity}%"
+    },
+
+    "tray": {
+        "icon-size": 18,
+        "spacing": 6
+    }
+}
