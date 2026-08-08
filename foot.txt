@@ -1,0 +1,12 @@
+[main]
+font=monospace:size=11
+pad=8x8
+
+[colors]
+background=111318
+foreground=e6e6e6
+selection-background=3a3f4b
+selection-foreground=ffffff
+
+[scrollback]
+lines=10000
