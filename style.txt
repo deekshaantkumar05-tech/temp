@@ -1,0 +1,22 @@
+* {
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+window#waybar {
+    background: rgba(20, 20, 24, 0.95);
+    color: #ffffff;
+}
+
+#taskbar,
+#clock,
+#network,
+#cpu,
+#memory,
+#tray {
+    padding: 0 10px;
+}
+
+#clock {
+    font-weight: bold;
+}
