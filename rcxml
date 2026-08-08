@@ -8,14 +8,29 @@
   </core>
 
   <keyboard>
-    <default />
+    <keybind key="W-Return">
+      <action name="Execute">
+        <command>foot</command>
+      </action>
+    </keybind>
+
+    <keybind key="W-space">
+      <action name="Execute">
+        <command>fuzzel</command>
+      </action>
+    </keybind>
+
+    <keybind key="W-q">
+      <action name="Close" />
+    </keybind>
+
+    <keybind key="W-S-r">
+      <action name="Reconfigure" />
+    </keybind>
+
+    <keybind key="W-S-e">
+      <action name="Exit" />
+    </keybind>
   </keyboard>
-
-  <mouse>
-    <default />
-  </mouse>
-
-  <windowRules>
-  </windowRules>
 
 </labwc_config>
